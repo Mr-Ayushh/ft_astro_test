@@ -103,7 +103,7 @@ No service locator is used; with three repositories `RepositoryProvider` is enou
 |-------|-------|-------|
 | `NavigationCubit` | `AppTab` (`home`, `goals`, `journal`, `insights`) | Used by the bottom nav, "Create Your Goal", "Read more" and the journal cover. `PopScope` sends Android back to Home before closing the app |
 | `HomeCubit` | `HomeState`: `status`, `user`, `horoscope`, `numerology`, `goals` | `load()` fetches everything for today |
-| `AgeClockCubit` | `AgeBreakdown` | A `Stream.periodic` ticks every second and runs `CalculateAge` from the birth date (6 September 2022) |
+| `AgeClockCubit` | `AgeBreakdown` | A `Stream.periodic` ticks every second and runs `CalculateAge` from the birth date (1 September 2017) |
 | `EntryEditorCubit` | `EntryEditorState`: mood, title, body, tags, `status` | `canSave` needs a mood and a title or text; `save()` goes through `SaveJournalEntry` and works for new and edited entries |
 | `InsightsCubit` | `InsightsState`: `status`, `period`, `chart`, `insight` | `load()` gets the birth chart and today's insight; `periodSelected()` switches the tab at once and loads the insight for that period |
 

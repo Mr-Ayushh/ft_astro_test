@@ -16,7 +16,7 @@ class HomeLocalDataSourceImpl implements HomeLocalDataSource {
   Future<Map<String, dynamic>> getUserProfile() async {
     return {
       'name': 'Team',
-      'birth_date': '2022-09-06T00:00:00',
+      'birth_date': '2017-09-01T00:00:00',
       'sign': {
         'name': 'Gemini',
         'element': 'Air',

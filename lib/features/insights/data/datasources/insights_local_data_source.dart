@@ -81,7 +81,7 @@ class InsightsLocalDataSourceImpl implements InsightsLocalDataSource {
   Future<Map<String, dynamic>> getBirthChart() async {
     return {
       'name': 'Furation Tech',
-      'birth_date': '2022-09-06',
+      'birth_date': '2017-09-01',
       'sun_sign': 'Cancer',
       'moon_sign': 'Leo',
     };
