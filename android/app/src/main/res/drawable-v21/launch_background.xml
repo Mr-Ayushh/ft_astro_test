@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Same gradient as the Flutter splash -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="315"
+                android:centerColor="#F8F7F4"
+                android:endColor="#F6F1DC"
+                android:startColor="#E2EEF0"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>
